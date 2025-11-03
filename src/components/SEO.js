@@ -20,16 +20,15 @@ export default function SEO({ title, description, pageType }) {
   const canonicalUrl = `${site.siteMetadata.siteUrl}${location.pathname}`;
   const schema = generateSchema({ pageType, title, description, slug: location.pathname });
 
-   // ✅ Inject AdSense script via useEffect
+  useEffect(() => {
   if (typeof window !== "undefined") {
-    useEffect(() => {
-      const script = document.createElement("script");
-      script.async = true;
-      script.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=pub-6771362188294710";
-      script.crossOrigin = "anonymous";
-      document.head.appendChild(script);
-    }, []);
+    const script = document.createElement("script");
+    script.async = true;
+    script.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=pub-6771362188294710";
+    script.crossOrigin = "anonymous";
+    document.head.appendChild(script);
   }
+}, []);
 
   return (
     <Helmet>
