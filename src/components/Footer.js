@@ -16,25 +16,27 @@ export default function Footer() {
     const siteUrl = site.siteMetadata.siteUrl;
 
   return (
-    <footer className="site-footer">
-      <div className="container">
-        <div class="footer-bottom">
-        <p>&copy; 2025 Wealthhustle — All rights reserved.</p>
-        <p>          
-          <a href={`${siteUrl}/contact/`}>
+    <footer className="w-full bg-gray-100 text-purple-700 py-6 mt-12" role="contentinfo">
+      <div className="max-w-4xl mx-auto px-4 flex flex-col md:flex-row md:justify-between md:items-center gap-4">
+        {/* Kiri: Copyright */}
+        <p className="text-sm">
+          © 2025 Wealthhustle — All rights reserved.
+        </p>
+
+        {/* Kanan: Menu */}
+        <div className="flex flex-col items-start md:items-end gap-2 text-sm">
+          <a href={`${siteUrl}/contact/`} className="no-underline hover:text-purple-500">
             Contact
           </a>
-          <br />
-          <a href={`${siteUrl}/disclaimer/`}>
+          <a href={`${siteUrl}/disclaimer/`} className="no-underline hover:text-purple-500">
             Disclaimer
           </a>
-          <br />
-          <a href={`${siteUrl}/privacy-policy/`}>
+          <a href={`${siteUrl}/privacy-policy/`} className="no-underline hover:text-purple-500">
             Privacy Policy
           </a>
-        </p>
-      </div>
+        </div>
       </div>
     </footer>
+
   );
 }

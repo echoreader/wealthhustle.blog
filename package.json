@@ -32,7 +32,10 @@
     "react-helmet": "^6.1.0"
   },
   "devDependencies": {
-    "prettier": "^2.8.8"
+    "@unocss/preset-typography": "^66.5.5",
+    "@unocss/preset-uno": "^66.5.5",
+    "prettier": "^2.8.8",
+    "unocss": "^66.5.5"
   },
   "license": "MIT",
   "repository": {
