@@ -1,7 +1,7 @@
 import React from "react";
 import { graphql } from "gatsby";
 import Layout from "../components/Layout";
-import SEO from "../components/SEO";
+import Head from "../components/Head";
 
 export const query = graphql`
   query PostBySlug($slug: String!) {
@@ -38,7 +38,7 @@ export default function PostTemplate({ data }) {
 
   return (
     <Layout>
-      <SEO
+      <Head
         title={frontmatter.title}
         description={frontmatter.description}
         pageType="post"

@@ -1,11 +1,7 @@
 import React, { useState } from "react";
-import { Link, useStaticQuery, graphql } from "gatsby"; // ← ditambah: ambil siteUrl
-import "../styles/global.css";
+import { Link, useStaticQuery, graphql } from "gatsby";
 
 export default function Header() {
-  const [menuOpen, setMenuOpen] = useState(false);
-
-  // ← ditambah: ambil siteUrl dari gatsby-config.js
   const { site } = useStaticQuery(graphql`
     query {
       site {
@@ -15,7 +11,9 @@ export default function Header() {
       }
     }
   `);
+
   const siteUrl = site.siteMetadata.siteUrl;
+  const [menuOpen, setMenuOpen] = useState(false);
 
   return (
     <header className="w-full bg-gray-100" role="banner">

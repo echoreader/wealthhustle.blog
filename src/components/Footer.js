@@ -1,19 +1,17 @@
 import React from "react";
-import { Link, useStaticQuery, graphql } from "gatsby"; // ← ditambah: ambil siteUrl
+import { Link, useStaticQuery, graphql } from "gatsby";
 
 export default function Footer() {
-
-  // ← ditambah: ambil siteUrl dari gatsby-config.js
-    const { site } = useStaticQuery(graphql`
-      query {
-        site {
-          siteMetadata {
-            siteUrl
-          }
+  const { site } = useStaticQuery(graphql`
+    query {
+      site {
+        siteMetadata {
+          siteUrl
         }
       }
-    `);
-    const siteUrl = site.siteMetadata.siteUrl;
+    }
+  `);
+  const siteUrl = site.siteMetadata.siteUrl;
 
   return (
     <footer className="w-full bg-gray-100 text-purple-700 py-6 mt-12" role="contentinfo">

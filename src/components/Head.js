@@ -4,31 +4,31 @@ import { Helmet } from "react-helmet";
 import { useLocation } from "@reach/router";
 import generateSchema from "../utils/schema";
 
-export default function SEO({ title, description, pageType }) {
-
+export default function Head({ title, description, pageType }) {
+  
   const { site } = useStaticQuery(graphql`
-  query {
-    site {
-      siteMetadata {
-        siteUrl
+    query {
+      site {
+        siteMetadata {
+          siteUrl
+        }
       }
     }
-  }
-`);
+  `);
 
   const location = useLocation();
   const canonicalUrl = `${site.siteMetadata.siteUrl}${location.pathname}`;
   const schema = generateSchema({ pageType, title, description, slug: location.pathname });
 
   useEffect(() => {
-  if (typeof window !== "undefined") {
-    const script = document.createElement("script");
-    script.async = true;
-    script.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=pub-6771362188294710";
-    script.crossOrigin = "anonymous";
-    document.head.appendChild(script);
-  }
-}, []);
+    if (typeof window !== "undefined") {
+      const script = document.createElement("script");
+      script.async = true;
+      script.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=pub-6771362188294710";
+      script.crossOrigin = "anonymous";
+      document.head.appendChild(script);
+    }
+  }, []);
 
   return (
     <Helmet>
