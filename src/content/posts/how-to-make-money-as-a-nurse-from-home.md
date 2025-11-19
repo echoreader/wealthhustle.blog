@@ -4,11 +4,9 @@ slug: "how-to-make-money-as-a-nurse-from-home"
 date: "2025-11-16"
 description: "Unlock your potential as a nurse working from home. Learn how to leverage your expertise to create income streams while enjoying the comfort of your home."
 author: "Echo Reader"
-category: "Recipes"
+category: "finance"
 tags:
-  - sourdough
-  - bread
-  - baking
+  - work-from-home
 ---
 
 I've been a registered nurse for over 12 years, and while I love bedside care, the burnout was real long shifts, mandatory overtime, and barely seeing my family. Then the pandemic hit, and like many nurses across the United States, I discovered *how to make money as a nurse from home*. It wasn't just a survival tactic; it became my path to flexibility, better pay in some cases, and reclaiming my life. If you're a nurse tired of the hospital grind or looking for *nurse side hustles* that fit around kids, travel, or just your sanity, this guide is for me talking directly to you. I'll share proven *remote nursing jobs*, *work-from-home nurse* opportunities, and even *freelance nursing* gigs that have padded my bank account without ever leaving my home office in suburban Ohio.

@@ -4,11 +4,9 @@ slug: "best-environmental-law-schools"
 date: "2025-10-30"
 description: "Discover the top environmental law schools that equip you with the skills to protect our planet. Explore programs, rankings, and career opportunities"
 author: "Echo Reader"
-category: "Recipes"
+category: "education"
 tags:
-  - sourdough
-  - bread
-  - baking
+  - law-schools
 ---
 
 What is environmental law?

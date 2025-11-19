@@ -4,11 +4,9 @@ slug: "what-schools-are-aacsb-accredited"
 date: "2025-11-06"
 description: "Learn about AACSB accreditation and its impact on business education. Access our curated list of accredited schools to make informed academic choices."
 author: "Echo Reader"
-category: "Recipes"
+category: "business"
 tags:
-  - sourdough
-  - bread
-  - baking
+  - aacsb
 ---
 
 What is AACSB Accreditation? A Mark of Quality Explained

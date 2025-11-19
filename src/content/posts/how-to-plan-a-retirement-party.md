@@ -4,11 +4,9 @@ slug: "how-to-plan-a-retirement-party"
 date: "2025-11-10"
 description: "Planning a retirement party? Explore creative ideas, themes, and checklists to ensure a joyful send-off that honors the retiree's achievements and memories."
 author: "Echo Reader"
-category: "Recipes"
+category: "event-planning"
 tags:
-  - sourdough
-  - bread
-  - baking
+  - retirement-party
 ---
 
 I still remember the night my dad retired after 38 years as a high-school principal. We threw him a **retirement party** in our backyard, complete with a slideshow of his infamous faculty-prank photos and a toast from the janitor who’d worked beside him since 1985. The look on his face equal parts shock and joy taught me that a great **retirement celebration** isn’t about perfection; it’s about honoring a lifetime of work with laughter, love, and a few well-timed surprises. Whether you’re organizing for a parent, coworker, or yourself, I’ve planned six of these events across the United States (from a Texas BBQ to a rooftop in Chicago), and I’ll share every shortcut, splurge, and sanity-saver I’ve learned. Let’s make the retiree feel like the MVP they are.

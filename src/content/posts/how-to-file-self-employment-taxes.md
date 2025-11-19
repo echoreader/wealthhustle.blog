@@ -4,11 +4,9 @@ slug: "how-to-file-self-employment-taxes"
 date: "2025-11-12"
 description: "Master the art of filing self-employment taxes! Discover essential tips, forms, and deadlines to help you navigate your tax responsibilities confidently."
 author: "Echo Reader"
-category: "Recipes"
+category: "finance"
 tags:
-  - sourdough
-  - bread
-  - baking
+  - taxes
 ---
 
 When I quit my 9-to-5 in 2018 to freelance full-time, my first “welcome to independence” moment wasn’t a big client check it was a letter from the IRS reminding me about **self-employment taxes**. No employer was withholding anything anymore, and suddenly *I* was on the hook for Social Security, Medicare, and income tax. If you’re a freelancer, gig worker, or side-hustler in the United States, this guide is the roadmap I wish I’d had. I’ll walk you through every step of **filing self-employment taxes** with the exact forms, deadlines, and tricks I use to keep the IRS happy and my wallet intact.
