@@ -3,6 +3,12 @@ title: "What is the Best Free Homeschool Curriculum"
 slug: "what-is-the-best-free-homeschool-curriculum"
 date: "2025-11-03"
 description: "Looking for the best free homeschool curriculum? Explore top-rated options, flexible learning styles, and get your kids excited to learn click to dive"
+author: "Echo Reader"
+category: "Recipes"
+tags:
+  - sourdough
+  - bread
+  - baking
 ---
 
 _Can I be brutally honest with you for a second?_ When I first started homeschooling my kids three years ago, I had this naive idea that I'd just find "the perfect" free curriculum online and everything would magically fall into place.

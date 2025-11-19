@@ -17,14 +17,18 @@ export const query = graphql`
         description
         slug
         date(formatString: "MMMM D, YYYY")
+        author
+        category
+        tags
       }
     }
   }
 `;
 
-export default function PostTemplate({ data }) {
+export default function PostTemplate({ data, pageContext  }) {
   const post = data.markdownRemark;
   const site = data.site; // ✅ ini yang kamu butuhkan
+   const { previous, next } = pageContext; // ✅ ambil dari pageContext
 
   if (!post) {
     return (
@@ -44,6 +48,20 @@ export default function PostTemplate({ data }) {
         pageType="post"
         slug={frontmatter.slug}
       />
+
+<nav className="text-sm text-gray-600 mb-4 px-4">
+  <a href="/" className="hover:underline">Home</a>
+  {frontmatter.category && (
+    <>
+      &nbsp;&gt;&nbsp;
+      {/* sementara pakai span, bukan link */}
+      <span className="text-gray-800">{frontmatter.category}</span>
+    </>
+  )}
+  &nbsp;&gt;&nbsp;
+  <span className="text-gray-800 font-semibold">{frontmatter.title}</span>
+</nav>
+
       <article className="container">
         <h1>
           <a href={`${site.siteMetadata.siteUrl}/${frontmatter.slug}/`}
@@ -53,9 +71,58 @@ export default function PostTemplate({ data }) {
             {frontmatter.title}
           </a>
         </h1>
-        <p><em>{frontmatter.date}</em></p>
+        <p className="text-sm text-gray-700 px-4">
+  <em>{frontmatter.date}</em> • {frontmatter.author || "Echo Reader"}
+</p>
+
         <div dangerouslySetInnerHTML={{ __html: html }} />
+
+        {/* === TAGS === */}
+        {frontmatter.tags && frontmatter.tags.length > 0 && (
+          <div className="mt-8 text-sm text-gray-600 px-4">
+            <strong className="block mb-2">Tags:</strong>
+            <div className="flex flex-wrap gap-2">
+              {frontmatter.tags.map((tag) => (
+                <span
+                  key={tag}
+                  className="bg-gray-100 text-gray-800 px-3 py-1 rounded-full text-xs font-medium hover:bg-gray-200 transition"
+                >
+                  {tag}
+                </span>
+              ))}
+            </div>
+          </div>
+        )}
       </article>
+
+      {/* === NEXT / PREVIOUS === */}
+<nav className="mt-8 flex justify-between text-sm">
+  {previous && (
+    <div className="flex items-center">
+      <span className="mr-2">←</span>
+      <a
+        href={`${site.siteMetadata.siteUrl}/${previous.frontmatter.slug}/`}
+        rel="prev"
+        className="hover:underline"
+      >
+        {previous.frontmatter.title}
+      </a>
+    </div>
+  )}
+  {next && (
+    <div className="flex items-center">
+      <a
+        href={`${site.siteMetadata.siteUrl}/${next.frontmatter.slug}/`}
+        rel="next"
+        className="hover:underline"
+      >
+        {next.frontmatter.title}
+      </a>
+      <span className="ml-2">→</span>
+    </div>
+  )}
+</nav>
+
     </Layout>
   );
 }

@@ -3,6 +3,12 @@ title: "Google Cloud Digital Leader Practice Exam Free"
 slug: "google-cloud-digital-leader-practice-exam-free"
 date: "2025-10-29"
 description: "Prepare for the Google Cloud Digital Leader exam with our free practice exam. Boost your confidence and knowledge with real exam-style questions."
+author: "Echo Reader"
+category: "Recipes"
+tags:
+  - sourdough
+  - bread
+  - baking
 ---
 
 

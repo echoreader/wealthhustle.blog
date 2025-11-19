@@ -3,6 +3,12 @@ title: "Investing 101: A Guide to Financial Wellness"
 slug: "investing-guide-to-financial-wellness"
 date: "2025-10-18"
 description: "My personal financial wellness guide blends budgeting, investing, and productivity. Discover a practical system for money management, debt freedom."
+author: "Echo Reader"
+category: "Recipes"
+tags:
+  - sourdough
+  - bread
+  - baking
 ---
 I’ll never forget the low-grade hum of anxiety that used to accompany checking my bank account. My finances were a chaotic jumble of spontaneous purchases, ignored student loan statements, and a vague hope that someday, I’d “figure it out.” I was earning a decent living, but I had nothing to show for it. I felt controlled by my money, not the other way around. The term **financial wellness** felt like a distant, corporate concept, completely disconnected from my reality.
 
