@@ -4,7 +4,7 @@ slug: "passive-income-ideas-for-young-adults"
 date: "2025-11-24"
 description: "Unlock your earning potential with passive income ideas designed for young adults. Explore diverse opportunities to grow your wealth effortlessly."
 author: "Echo Reader"
-category: "finance-investing""
+category: "finance-investing"
 tags:
   - passive-income
   - side-hustle
