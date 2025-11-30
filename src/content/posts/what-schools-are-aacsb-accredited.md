@@ -198,3 +198,30 @@ AACSB accreditation is your single most reliable tool to ensure that investment 
 But remember, it's the **starting point**, not the finish line. The final choice is deeply personal. It's about finding the program where _you_ will thrive the place with the right specializations, the right culture, in the right location, that will set you on your unique path.
 
 So, my advice? Use the AACSB directory as your foundation. Do your homework. Talk to students. Analyze career reports. And trust your gut. You're not just choosing a school; you're choosing the launchpad for your career. Make it count.
+
+## FAQ
+
+<details>
+  <summary>What does AACSB accreditation stand for and signify?</summary>
+  <p>AACSB stands for the **Association to Advance Collegiate Schools of Business**. It is the most prestigious and globally recognized accreditation for business schools. It signifies that a program meets rigorous standards for quality, curriculum, faculty qualifications, and student success.</p>
+</details>
+
+<details>
+  <summary>Why is choosing an AACSB accredited business school important?</summary>
+  <p>Choosing an AACSB accredited school is important because it is a signal of quality to employers and other universities. Graduates often have **better job prospects**, higher starting salaries, and easier admission into top graduate programs because their degree is recognized globally as meeting high standards.</p>
+</details>
+
+<details>
+  <summary>What specific programs does the AACSB accredit?</summary>
+  <p>AACSB primarily accredits **business administration and accounting programs**. A school can hold accreditation for its general business programs (BBA, MBA, Ph.D.) and/or separately for its accounting program, which involves meeting an additional set of standards.</p>
+</details>
+
+<details>
+  <summary>How can I find a complete list of AACSB accredited schools?</summary>
+  <p>The complete and most up-to-date list of all accredited institutions worldwide is maintained and published directly on the **official AACSB International website**. This list is searchable by country, state, and specific program type (business or accounting).</p>
+</details>
+
+<details>
+  <summary>How often do business schools have to renew their AACSB accreditation?</summary>
+  <p>Once a school achieves accreditation, it must undergo a rigorous **continuous improvement review process** and formal review every **five years** to maintain its accredited status. This ensures the school's quality remains consistently high over time.</p>
+</details>

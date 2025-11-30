@@ -1,11 +1,10 @@
 import React, { useEffect } from "react";
-import { Link, useStaticQuery, graphql } from "gatsby"; // ← ditambah: ambil siteUrl
+import { useStaticQuery, graphql } from "gatsby";
 import { Helmet } from "react-helmet";
 import { useLocation } from "@reach/router";
 import generateSchema from "../utils/schema";
 
-export default function Head({ title, description, pageType }) {
-  
+export default function Head({ title, description, pageType, slug, category, faqs }) {
   const { site } = useStaticQuery(graphql`
     query {
       site {
@@ -18,13 +17,23 @@ export default function Head({ title, description, pageType }) {
 
   const location = useLocation();
   const canonicalUrl = `${site.siteMetadata.siteUrl}${location.pathname}`;
-  const schema = generateSchema({ pageType, title, description, slug: location.pathname });
+
+  // ✅ Pastikan semua props diteruskan ke generateSchema
+  const schema = generateSchema({
+    pageType,
+    title,
+    description,
+    slug,
+    category,
+    faqs
+  });
 
   useEffect(() => {
     if (typeof window !== "undefined") {
       const script = document.createElement("script");
       script.async = true;
-      script.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=pub-6771362188294710";
+      script.src =
+        "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=pub-6771362188294710";
       script.crossOrigin = "anonymous";
       document.head.appendChild(script);
     }
@@ -42,7 +51,23 @@ export default function Head({ title, description, pageType }) {
       <link rel="canonical" href={canonicalUrl} />
 
       {/* 2. Structured data */}
-      <script type="application/ld+json">{JSON.stringify(schema)}</script>
+      {schema &&
+        (Array.isArray(schema) ? (
+          schema.map(
+            (s, i) =>
+              Object.keys(s).length > 0 && (
+                <script key={i} type="application/ld+json">
+                  {JSON.stringify(s)}
+                </script>
+              )
+          )
+        ) : (
+          Object.keys(schema).length > 0 && (
+            <script type="application/ld+json">
+              {JSON.stringify(schema)}
+            </script>
+          )
+        ))}
 
       {/* 3. Favicon */}
       <link rel="icon" type="image/x-icon" href="/favicon.ico" />

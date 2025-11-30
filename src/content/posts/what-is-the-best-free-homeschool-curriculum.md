@@ -318,6 +318,33 @@ Don't let anyone tell you that free means inferior. Some of my kids' best learni
 
 _Start somewhere, be willing to adjust, and give yourself permission to figure it out as you go._ That's what all of us are doing anyway, whether we're using free curricula or expensive ones.
 
+## FAQ
+
+<details>
+  <summary>Is a "free" curriculum sufficient for a full year of homeschooling?</summary>
+  <p>Yes, many high-quality, free resources offer complete academic coverage from K-12, often by combining resources from multiple providers (e.g., Khan Academy for Math/Science, Gutenberg Project for literature, and free state-provided materials for history). The main trade-off is often more **parental planning time** compared to paid, all-in-one programs.</p>
+</details>
+
+<details>
+  <summary>What is the most popular, structured free curriculum option?</summary>
+  <p>The most popular structured option is often considered to be **Khan Academy**. It provides comprehensive, standards-aligned instruction and practice in core subjects like math, science, and grammar for all grade levels, and it is entirely free to use.</p>
+</details>
+
+<details>
+  <summary>Which free curricula are best for hands-on, multi-age learning?</summary>
+  <p>For multi-age and hands-on learning, many parents use **Charlotte Mason** or **Unit Study** methods combined with free resources. These methods rely less on textbooks and more on "living books," nature studies, and practical applications, which can be easily sourced from free libraries and public domain materials.</p>
+</details>
+
+<details>
+  <summary>How can I ensure my child's free education is college-ready?</summary>
+  <p>Ensure college readiness by focusing on **core math and science proficiency** and documenting high school credits using an official transcript format. Utilize free resources like **CLEP exams** (College-Level Examination Program) or **free AP course materials** to demonstrate college-level mastery to admissions committees.</p>
+</details>
+
+<details>
+  <summary>What is the biggest challenge when using a free curriculum?</summary>
+  <p>The biggest challenge is **organization and pacing**. Since you are often compiling materials from various sources, the parent must act as the primary curriculum coordinator and must take the time to schedule and sequence lessons to maintain a consistent learning path.</p>
+</details>
+
 * * *
 
 **Disclaimer:** This article is based on my personal experience homeschooling two children over three years, along with extensive research into available free curricula. Every family's needs are different, and what works for us might not work for you. Always research programs thoroughly and consider your state's homeschooling requirements when making curriculum decisions.

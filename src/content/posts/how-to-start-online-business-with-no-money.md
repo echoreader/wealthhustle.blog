@@ -119,22 +119,29 @@ You’ve got this.
 
 ## Frequently Asked Questions
 
-**Can you really start an online business with no money in 2025?**  
-Yes 100%. I did it, and thousands of my students have too. The tools are free, the audience is waiting.
+<details>
+  <summary>What types of online businesses are truly possible to start with zero money?</summary>
+  <p>Businesses that rely on your **skills and time** rather than inventory are best. Examples include **Freelance Services** (writing, graphic design, social media management), **Affiliate Marketing**, and creating educational content (like a YouTube channel or blog) where you monetize through ads later.</p>
+</details>
 
-**How fast can I make money with zero startup cost?**  
-My average student sees their first $500 within 30–60 days if they follow through daily.
+<details>
+  <summary>How can I build a website or online presence without paying for hosting?</summary>
+  <p>You can start with **free hosting platforms** like **Substack** (for newsletters), **Medium** (for blogging), or the free versions of website builders like **Wix** or **Carrd**. These platforms often have limitations but allow you to establish a base and validate your idea before paying for a custom domain.</p>
+</details>
 
-**Do I need a laptop or can I use my phone?**  
-Phone is fine. I made my first $20K on an iPhone 8 using only free apps.
+<details>
+  <summary>How do I market my business for free to get my first customers?</summary>
+  <p>Focus on **Organic Marketing**. This includes **Search Engine Optimization (SEO)** to attract long-term traffic, actively participating in niche communities or forums (like Reddit) to establish expertise, and leveraging free social media platforms (like LinkedIn or TikTok) to demonstrate your value.</p>
+</details>
 
-**What’s the easiest online business with no money?**  
-Virtual assistant or social media manager people pay you to save them time, and you can start today.
+<details>
+  <summary>What is the concept of 'Dropshipping' and can I start it for free?</summary>
+  <p>**Dropshipping** is an e-commerce model where you sell products without holding inventory. While you don't pay for inventory upfront, starting requires at least a small investment in a platform (like Shopify) or a domain name. It is not strictly "free," but it minimizes capital risk.</p>
+</details>
 
-**Is dropshipping still free in 2025?**  
-You can start with $0 using free trials (Shopify 3 days + free theme), but you’ll eventually want $29/month. Affiliate marketing is truly zero forever.
-
-**How do I stay motivated when results are slow?**  
-Celebrate tiny wins, join a free community (like my Discord), and remember why you started. Momentum builds faster than you expect.
+<details>
+  <summary>What is the biggest challenge when starting a business with no money?</summary>
+  <p>The biggest challenge is trading **Time for Money**. Since you cannot pay for tools or advertising, you must invest significantly more time doing everything yourself (content creation, marketing, research). You must be patient and highly disciplined to see results.</p>
+</details>
 
 Now go start. The world is waiting for what only you can create.

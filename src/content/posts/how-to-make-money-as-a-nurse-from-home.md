@@ -129,17 +129,27 @@ Taxes are higher as 1099, so I set aside 30% and use QuickBooks Self-Employed.
 
 ## FAQ
 
-**Do I need special certifications for *remote nursing jobs*?**  
-Not always, but CCM for case management or ambulatory care certification boosts pay and hireability.
+<details>
+  <summary>What are the most common remote job roles for Registered Nurses (RNs)?</summary>
+  <p>The most common fully remote roles are **Telehealth/Triage Nurse** (assessing symptoms and providing advice over the phone/video), **Case Manager Nurse** (coordinating care for complex patients), and **Utilization Review Nurse** (reviewing medical necessity for insurance companies).</p>
+</details>
 
-**Can LPNs work from home as nurses?**  
-Yes! Many *telehealth* and *medical coder* roles hire LPNs, though RNs have more options.
+<details>
+  <summary>Do I need special certifications or an advanced degree for remote nursing jobs?</summary>
+  <p>While an RN license is the minimum, roles like **Nurse Educator** or some **Informatics** positions often require a **Bachelor of Science in Nursing (BSN)** or a **Master of Science in Nursing (MSN)**. Experience in a specialized clinical area (e.g., ICU, specific disease management) is often more important than a new degree for many remote clinical roles.</p>
+</details>
 
-**How much can I realistically make in *nurse side hustles*?**  
-$500–$5,000/month depending on hours and niche. I know nurses clearing $8K/month in *freelance nursing*.
+<details>
+  <summary>What skills can a nurse use for non-clinical work-from-home income?</summary>
+  <p>Nurses can leverage their clinical knowledge for flexible, non-clinical work like **Freelance Medical Writing** (blogs, content creation, educational materials), **Online Tutoring** (NCLEX or nursing school subjects), **Legal Nurse Consulting** (analyzing medical records for law firms), or running a **Health Coaching** business.</p>
+</details>
 
-**Is *online tutoring* worth it for experienced nurses?**  
-Absolutely. NCLEX prep pays $60–$120/hour, and you help the next generation.
+<details>
+  <summary>How can I get started in Telehealth or Triage Nursing from home?</summary>
+  <p>Start by gaining at least **3-5 years of solid clinical experience** (med-surg, ER, or ICU is preferred). Look for job postings from major insurance companies, large hospital systems, and dedicated telehealth platforms. Be prepared to demonstrate strong communication skills and clinical judgment in interviews.</p>
+</details>
 
-**What if I live in a non-compact state?**  
-Apply for individual state licenses (takes 4–8 weeks) or focus on national employers like insurance companies.
+<details>
+  <summary>What are the tax implications of working as a freelance nurse writer or tutor?</summary>
+  <p>As a freelancer, you are considered **self-employed**. This means you are responsible for paying estimated **Self-Employment Taxes** (Social Security and Medicare) quarterly, and you must track and report all income and deduct business expenses (like computer equipment, internet costs, etc.) on your annual tax return.</p>
+</details>

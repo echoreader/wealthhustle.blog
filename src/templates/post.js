@@ -2,6 +2,7 @@ import React from "react";
 import { graphql } from "gatsby";
 import Layout from "../components/Layout";
 import Head from "../components/Head";
+import { extractFaqs } from "../utils/extractFaqs";
 
 export const query = graphql`
   query PostBySlug($slug: String!) {
@@ -25,10 +26,10 @@ export const query = graphql`
   }
 `;
 
-export default function PostTemplate({ data, pageContext  }) {
+export default function PostTemplate({ data, pageContext }) {
   const post = data.markdownRemark;
-  const site = data.site; // ✅ ini yang kamu butuhkan
-   const { previous, next } = pageContext; // ✅ ambil dari pageContext
+  const site = data.site;
+  const { previous, next } = pageContext;
 
   if (!post) {
     return (
@@ -40,6 +41,9 @@ export default function PostTemplate({ data, pageContext  }) {
 
   const { frontmatter, html } = post;
 
+  // ✅ Extract FAQ from HTML body
+  const faqs = extractFaqs(html);
+
   return (
     <Layout>
       <Head
@@ -47,24 +51,26 @@ export default function PostTemplate({ data, pageContext  }) {
         description={frontmatter.description}
         pageType="post"
         slug={frontmatter.slug}
+        category={frontmatter.category}
+        faqs={faqs}   // ✅ kirim hasil extractor, bukan frontmatter
       />
 
-<nav className="text-sm text-gray-600 mb-4 px-4">
-  <a href="/" className="hover:underline">Home</a>
-  {frontmatter.category && (
-    <>
-      &nbsp;&gt;&nbsp;
-      {/* sementara pakai span, bukan link */}
-      <span className="text-gray-800">{frontmatter.category}</span>
-    </>
-  )}
-  &nbsp;&gt;&nbsp;
-  <span className="text-gray-800 font-semibold">{frontmatter.title}</span>
-</nav>
+      <nav className="text-sm text-gray-600 mb-4 px-4">
+        <a href="/" className="hover:underline">Home</a>
+        {frontmatter.category && (
+          <>
+            &nbsp;&gt;&nbsp;
+            <span className="text-gray-800">{frontmatter.category}</span>
+          </>
+        )}
+        &nbsp;&gt;&nbsp;
+        <span className="text-gray-800 font-semibold">{frontmatter.title}</span>
+      </nav>
 
       <article className="container">
         <h1>
-          <a href={`${site.siteMetadata.siteUrl}/${frontmatter.slug}/`}
+          <a
+            href={`${site.siteMetadata.siteUrl}/${frontmatter.slug}/`}
             aria-label={`Permalink to: ${frontmatter.title}`}
             className="text-blue-600 hover:underline focus:outline-none focus:ring-2 focus:ring-blue-400"
           >
@@ -72,8 +78,8 @@ export default function PostTemplate({ data, pageContext  }) {
           </a>
         </h1>
         <p className="text-sm text-gray-700 px-4">
-  <em>{frontmatter.date}</em> • {frontmatter.author || "Echo Reader"}
-</p>
+          <em>{frontmatter.date}</em> • {frontmatter.author || "Echo Reader"}
+        </p>
 
         <div dangerouslySetInnerHTML={{ __html: html }} />
 
@@ -96,33 +102,32 @@ export default function PostTemplate({ data, pageContext  }) {
       </article>
 
       {/* === NEXT / PREVIOUS === */}
-<nav className="mt-8 flex justify-between text-sm">
-  {previous && (
-    <div className="flex items-center">
-      <span className="mr-2">←</span>
-      <a
-        href={`${site.siteMetadata.siteUrl}/${previous.frontmatter.slug}/`}
-        rel="prev"
-        className="hover:underline"
-      >
-        {previous.frontmatter.title}
-      </a>
-    </div>
-  )}
-  {next && (
-    <div className="flex items-center">
-      <a
-        href={`${site.siteMetadata.siteUrl}/${next.frontmatter.slug}/`}
-        rel="next"
-        className="hover:underline"
-      >
-        {next.frontmatter.title}
-      </a>
-      <span className="ml-2">→</span>
-    </div>
-  )}
-</nav>
-
+      <nav className="mt-8 flex justify-between text-sm">
+        {previous && (
+          <div className="flex items-center">
+            <span className="mr-2">←</span>
+            <a
+              href={`${site.siteMetadata.siteUrl}/${previous.frontmatter.slug}/`}
+              rel="prev"
+              className="hover:underline"
+            >
+              {previous.frontmatter.title}
+            </a>
+          </div>
+        )}
+        {next && (
+          <div className="flex items-center">
+            <a
+              href={`${site.siteMetadata.siteUrl}/${next.frontmatter.slug}/`}
+              rel="next"
+              className="hover:underline"
+            >
+              {next.frontmatter.title}
+            </a>
+            <span className="ml-2">→</span>
+          </div>
+        )}
+      </nav>
     </Layout>
   );
 }

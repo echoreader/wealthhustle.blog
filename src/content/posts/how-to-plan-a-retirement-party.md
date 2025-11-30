@@ -144,20 +144,30 @@ Tape this to your fridge 2 weeks out:
 
 ## FAQ
 
-**Q: How far in advance should I plan a retirement party?**  
-A: 6–8 weeks minimum. Venues book fast on weekends.
+<details>
+  <summary>What is the first and most critical step when planning a retirement party?</summary>
+  <p>The most critical first step is determining the **Budget and Guest List**. These two factors directly impact all subsequent decisions, such as venue size, formality, catering options, and whether the party will be a surprise or planned with the retiree's input.</p>
+</details>
 
-**Q: Can I throw a retirement party on a $500 budget?**  
-A: Yes potluck backyard BBQ, Evite, DIY decor, Spotify playlist. I’ve done it for 25 people.
+<details>
+  <summary>How far in advance should I start planning a retirement party?</summary>
+  <p>For a medium to large gathering (50+ guests) or if booking a specific venue, start planning **at least 2–3 months in advance**. This allows sufficient time to secure the best date, mail invitations, confirm catering, and collect photos or video messages from colleagues.</p>
+</details>
 
-**Q: What if the retiree doesn’t want a big party?**  
-A: Scale down to a fancy dinner + 10 closest people, or host a “open house” drop-in.
+<details>
+  <summary>What are some memorable themes that successfully honor the retiree?</summary>
+  <p>Memorable themes often relate to the retiree's next chapter or career highlights: **"A New Adventure Begins"** (travel/exploration theme), **"Vintage Newspaper Headlines"** (showcasing career achievements), or a **"Hawaiian/Tropical"** theme symbolizing relaxation and leisure.</p>
+</details>
 
-**Q: Virtual retirement party worth it?**  
-A: Absolutely for remote teams. Use Zoom + mailed care packages (mug, confetti popper).
+<details>
+  <summary>Who is typically responsible for giving a toast or speech at the event?</summary>
+  <p>Generally, the toast list should include the **Senior Manager/CEO** (formal acknowledgement), a **Close Colleague or Team Lead** (to share anecdotes), and the **Retiree's Spouse/Family Member** (to offer personal congratulations). Keep speeches to 3–5 minutes each.</p>
+</details>
 
-**Q: Who pays for a coworker’s retirement party?**  
-A: Usually a group collection ($10–$20/person). HR sometimes kicks in $200–$500.
+<details>
+  <summary>Should the party be a surprise, or should the retiree be involved in the planning?</summary>
+  <p>If the retiree has a strong preference or an active social calendar, it's safer to involve them in choosing the **date and general guest list** to ensure attendance. If the company culture is very surprise-friendly, ensure a close family member is included in the planning to vet the details.</p>
+</details>
 
 ## Conclusion
 

@@ -131,20 +131,30 @@ E-file by April 15 (or October 15 with extension **but pay any balance by April*
 
 ## FAQ
 
-**Q: Can I file self-employment taxes if I also have a W-2 job?**  
-A: Yes. Report freelance income separately on Schedule C; your employer’s withholding may cover some liability.
+<details>
+  <summary>What is Self-Employment Tax and what federal taxes does it cover?</summary>
+  <p>Self-Employment Tax is the combined Social Security and Medicare taxes for individuals who work for themselves. It covers both the employer and employee portions, totaling **15.3%** of your net earnings (12.4% for Social Security and 2.9% for Medicare).</p>
+</details>
 
-**Q: What if I forget a 1099?**  
-A: Report the income anyway. The IRS will match it later and send a CP2000 notice if mismatched.
+<details>
+  <summary>What is the most important form I need to file for self-employment income?</summary>
+  <p>The most important form is **Schedule C (Form 1040)**, which you use to report your income and expenses from your business. Additionally, you must use **Schedule SE (Form 1040)** to calculate the amount of Self-Employment Tax you owe.</p>
+</details>
 
-**Q: Are gig-app payments (Uber, DoorDash) taxed differently?**  
-A: No they issue 1099-K. Same rules apply.
+<details>
+  <summary>How often must I pay self-employment taxes?</summary>
+  <p>You must generally pay estimated taxes quarterly if you expect to owe at least $1,000 in taxes for the year. The IRS requires you to make **quarterly estimated tax payments** on the 15th of April, June, September, and January.</p>
+</details>
 
-**Q: Should I form an LLC to save on taxes?**  
-A: LLCs don’t change **self-employment taxes** (still Schedule C unless you elect S-Corp). Talk to a CPA before spending $800 on setup.
+<details>
+  <summary>Can I deduct business expenses to lower my taxable income?</summary>
+  <p>Yes, absolutely. You must track and deduct all **ordinary and necessary business expenses** (like office supplies, home office deduction, business travel, software subscriptions, etc.) on Schedule C. This is crucial for accurately determining your net profit and lowering your tax liability.</p>
+</details>
 
-**Q: Can I deduct startup costs?**  
-A: Yes up to $5,000 in the first year; amortize the rest.
+<details>
+  <summary>What is the current threshold for having to file self-employment taxes?</summary>
+  <p>You must file a tax return and pay self-employment taxes if your **net earnings** from self-employment were **$400 or more** during the tax year. If your net earnings are less than $400, you are still required to report the income but may not owe the Self-Employment Tax.</p>
+</details>
 
 ## Conclusion
 
