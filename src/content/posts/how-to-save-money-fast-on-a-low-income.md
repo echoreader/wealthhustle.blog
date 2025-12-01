@@ -1,3 +1,4 @@
+---
 title: "How to Save Money Fast on a Low income"
 slug: "how-to-save-money-fast-on-a-low-income"
 date: "2025-11-28"
