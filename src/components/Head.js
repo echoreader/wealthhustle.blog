@@ -17,8 +17,6 @@ export default function Head({ title, description, pageType, slug, category, faq
 
   const location = useLocation();
   const canonicalUrl = `${site.siteMetadata.siteUrl}${location.pathname}`;
-
-  // ✅ Pastikan semua props diteruskan ke generateSchema
   const schema = generateSchema({
     pageType,
     title,

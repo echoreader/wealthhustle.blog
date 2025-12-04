@@ -40,8 +40,6 @@ export default function PostTemplate({ data, pageContext }) {
   }
 
   const { frontmatter, html } = post;
-
-  // ✅ Extract FAQ from HTML body
   const faqs = extractFaqs(html);
 
   return (
@@ -52,7 +50,7 @@ export default function PostTemplate({ data, pageContext }) {
         pageType="post"
         slug={frontmatter.slug}
         category={frontmatter.category}
-        faqs={faqs}   // ✅ kirim hasil extractor, bukan frontmatter
+        faqs={faqs}
       />
 
       <nav className="text-sm text-gray-600 mb-4 px-4">
@@ -85,9 +83,8 @@ export default function PostTemplate({ data, pageContext }) {
 
         {/* === TAGS === */}
         {frontmatter.tags && frontmatter.tags.length > 0 && (
-          <div className="mt-8 text-sm text-gray-600 px-4">
-            <strong className="block mb-2">Tags:</strong>
-            <div className="flex flex-wrap gap-2">
+          <div className="mt-8 text-sm text-gray-600 px-4 flex items-center flex-wrap gap-x-3 gap-y-2">
+            <strong className="mr-2">Tags:</strong>
               {frontmatter.tags.map((tag) => (
                 <span
                   key={tag}
@@ -96,13 +93,12 @@ export default function PostTemplate({ data, pageContext }) {
                   {tag}
                 </span>
               ))}
-            </div>
           </div>
         )}
       </article>
 
       {/* === NEXT / PREVIOUS === */}
-      <nav className="mt-8 flex justify-between text-sm">
+      <nav className="flex justify-between mt-12 px-4 text-sm text-blue-600">
         {previous && (
           <div className="flex items-center">
             <span className="mr-2">←</span>

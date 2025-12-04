@@ -3,7 +3,6 @@ import { defineConfig, presetUno, presetTypography } from 'unocss'
 export default defineConfig({
   presets: [
     presetUno(),
-    //presetTypography(),
   ],
   theme: {
     fontFamily: {
@@ -23,4 +22,38 @@ export default defineConfig({
     'border','border-solid','rounded-md','p-6',
     'shadow-md','space-y-6','text-center',
   ],
+  preflights: [
+    {
+      getCSS: () => `
+        table {
+          border-collapse: collapse;
+          display: block;
+          overflow-x: auto;
+          white-space: nowrap;
+          -webkit-overflow-scrolling: touch;
+        }
+
+        /* Aturan untuk header dan cell */
+        table th,
+        table td {
+          border: 1px solid #ccc;
+          padding: 8px;
+          text-align: left;
+          vertical-align: top;
+        }
+
+        table th {
+          background-color: #f2f2f2;
+          font-weight: bold;
+        }
+
+        table tr:nth-child(even) {
+          background-color: #fafafa;
+        }
+
+        blockquote { border-left: 4px solid #828282; padding-left: 12px; font-style: italic; }
+        details { margin-bottom: 1rem; }
+        summary { cursor: pointer; font-weight: bold; }`,
+    },
+  ]
 })

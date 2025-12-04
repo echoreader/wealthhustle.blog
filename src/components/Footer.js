@@ -16,12 +16,12 @@ export default function Footer() {
   return (
     <footer className="w-full bg-gray-100 text-purple-700 py-6 mt-12" role="contentinfo">
       <div className="max-w-4xl mx-auto px-4 flex flex-col md:flex-row md:justify-between md:items-center gap-4">
-        {/* Kiri: Copyright */}
+        {/* Left: Copyright */}
         <p className="text-sm">
           © 2025 Wealthhustle — All rights reserved.
         </p>
 
-        {/* Kanan: Menu */}
+        {/* Right: Menu */}
         <div className="flex flex-col items-start md:items-end gap-2 text-sm">
           <a href={`${siteUrl}/contact/`} className="no-underline hover:text-purple-500">
             Contact

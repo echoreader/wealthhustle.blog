@@ -30,7 +30,7 @@ export const query = graphql`
 export default function BlogPage({ data, pageContext }) {
   const posts = data.allMarkdownRemark.nodes;
   const siteUrl = data.site.siteMetadata.siteUrl;
-  const { currentPage, numPages } = pageContext; // ✅ ambil dari context
+  const { currentPage, numPages } = pageContext;
 
   return (
     <Layout
@@ -39,26 +39,26 @@ export default function BlogPage({ data, pageContext }) {
       pageType="blog"
     >
       <section className="container">
-  <h1 className="text-2xl font-bold mb-6">Blog</h1>
-  {posts.map(post => (
-    <div
-  key={post.id}
-  className="border border-solid border-gray-300 rounded-lg p-4 mb-6"
->
-
-      <h2 className="text-lg font-semibold text-blue-700 mb-2">
-        <a href={`${siteUrl}/${post.frontmatter.slug}/`}>
-          {post.frontmatter.title}
-        </a>
-      </h2>
-      <p className="text-sm text-gray-500 mb-2">
-        <em>{post.frontmatter.date}</em>
-      </p>
-      <p className="text-gray-700">{post.frontmatter.description}</p>
-    </div>
-  ))}
-</section>
-
+        <h1 className="text-2xl font-bold mb-6">Blog</h1>
+        <div className="grid gap-3">
+          {posts.map(post => (
+            <div
+              key={post.id}
+              className="border border-solid border-gray-400 rounded-lg p-6 shadow-sm space-y-4"
+            > 
+              <h2 className="text-lg font-semibold text-blue-700 mb-2">
+                <a href={`${siteUrl}/${post.frontmatter.slug}/`}>
+                  {post.frontmatter.title}
+                </a>
+              </h2>
+              <p className="text-sm text-gray-500 mb-2">
+                <em>{post.frontmatter.date}</em>
+              </p>
+              <p className="text-gray-700">{post.frontmatter.description}</p>
+            </div> 
+          ))}  
+        </div>
+      </section>
 
       {/* === PAGINATION === */}
       <nav className="flex justify-center gap-2 mt-8">
