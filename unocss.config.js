@@ -25,6 +25,11 @@ export default defineConfig({
   preflights: [
     {
       getCSS: () => `
+
+        html {
+          overflow-y: scroll;
+        }
+
         table {
           border-collapse: collapse;
           display: block;
