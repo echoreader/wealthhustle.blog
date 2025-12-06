@@ -4,8 +4,9 @@ slug: "how-to-plan-a-retirement-party"
 date: "2025-11-10"
 description: "Planning a retirement party? Explore creative ideas, themes, and checklists to ensure a joyful send-off that honors the retiree's achievements and memories."
 author: "Echo Reader"
-category: "event-planning"
+category: "seniors-retirement"
 tags:
+  - achievements
   - retirement-party
 ---
 

@@ -7,6 +7,7 @@ author: "Echo Reader"
 category: "finance"
 tags:
   - investing
+  - budgeting
 ---
 
 I’ll never forget the low-grade hum of anxiety that used to accompany checking my bank account. My finances were a chaotic jumble of spontaneous purchases, ignored student loan statements, and a vague hope that someday, I’d “figure it out.” I was earning a decent living, but I had nothing to show for it. I felt controlled by my money, not the other way around. The term **financial wellness** felt like a distant, corporate concept, completely disconnected from my reality.

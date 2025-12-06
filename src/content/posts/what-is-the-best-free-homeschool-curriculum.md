@@ -6,7 +6,8 @@ description: "Looking for the best free homeschool curriculum? Explore top-rated
 author: "Echo Reader"
 category: "education"
 tags:
-  - homeschooling
+  - homeschool-curriculum
+  - learning-styles
 ---
 
 _Can I be brutally honest with you for a second?_ When I first started homeschooling my kids three years ago, I had this naive idea that I'd just find "the perfect" free curriculum online and everything would magically fall into place.

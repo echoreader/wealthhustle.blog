@@ -6,7 +6,8 @@ description: "Master the art of filing self-employment taxes! Discover essential
 author: "Echo Reader"
 category: "finance"
 tags:
-  - taxes
+  - taxes-responsibilities
+  - self-employment-taxes
 ---
 
 When I quit my 9-to-5 in 2018 to freelance full-time, my first “welcome to independence” moment wasn’t a big client check it was a letter from the IRS reminding me about **self-employment taxes**. No employer was withholding anything anymore, and suddenly *I* was on the hook for Social Security, Medicare, and income tax. If you’re a freelancer, gig worker, or side-hustler in the United States, this guide is the roadmap I wish I’d had. I’ll walk you through every step of **filing self-employment taxes** with the exact forms, deadlines, and tricks I use to keep the IRS happy and my wallet intact.

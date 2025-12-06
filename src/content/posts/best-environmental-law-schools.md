@@ -7,6 +7,7 @@ author: "Echo Reader"
 category: "education"
 tags:
   - law-schools
+  - career-opportunities
 ---
 
 What is environmental law?

@@ -6,7 +6,8 @@ description: "Elevate your small business with cost-effective email marketing au
 author: "Echo Reader"
 category: "business-industrial"
 tags:
-  - law-schools
+  - business
+  - campaigns
 ---
 
 This is one of the most important questions a growing business can ask\! **Email Marketing Automation** is no longer just for large enterprises it's the engine that lets **Small Business** owners compete, scale their efforts, and achieve deep **Personalization** all while being incredibly **Affordable**.
