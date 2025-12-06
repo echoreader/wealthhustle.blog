@@ -16,7 +16,7 @@ export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <header className="w-full bg-gray-100" role="banner">
+    <header className="w-full sticky top-0 z-50 bg-gray-100" role="banner">
       <div className="max-w-4xl mx-auto px-4 flex items-center justify-between h-16">
         {/* Branding */}
         <div className="text-purple-700 font-bold text-xl">
