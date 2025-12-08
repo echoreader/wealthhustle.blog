@@ -4,7 +4,8 @@ exports.onCreateNode = ({ node, actions }) => {
   const { createNodeField } = actions;
 
   if (node.internal.type === "MarkdownRemark") {
-    const slug = node.frontmatter.slug ||
+    const slug =
+      node.frontmatter.slug ||
       path.basename(node.fileAbsolutePath, ".md");
 
     createNodeField({
@@ -17,15 +18,16 @@ exports.onCreateNode = ({ node, actions }) => {
 
 exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions;
+
   const result = await graphql(`
     {
       allMarkdownRemark(sort: { frontmatter: { date: DESC } }) {
         nodes {
-          frontmatter { slug }
+          frontmatter { slug category }
         }
         edges {
           node {
-            frontmatter { slug title }
+            frontmatter { slug title category }
           }
           next {
             frontmatter { slug title }
@@ -40,7 +42,7 @@ exports.createPages = async ({ graphql, actions }) => {
 
   if (result.errors) throw result.errors;
 
-  // === PAGINATION ===
+  // === PAGINATION BLOG ===
   const posts = result.data.allMarkdownRemark.nodes;
   const postsPerPage = 10;
   const numPages = Math.ceil(posts.length / postsPerPage);
@@ -70,21 +72,46 @@ exports.createPages = async ({ graphql, actions }) => {
       },
     });
   });
+
+  // ✅ === CATEGORY PAGES (NO PAGINATION) ===
+  const allPosts = result.data.allMarkdownRemark.nodes;
+
+  // Ambil kategori unik
+  const categories = [
+    ...new Set(
+      allPosts
+        .map(p => p.frontmatter.category)
+        .filter(Boolean)
+    ),
+  ];
+
+  // Buat halaman kategori otomatis
+  categories.forEach(category => {
+    createPage({
+      path: `/category/${category}/`,
+      component: path.resolve("./src/templates/category.js"),
+      context: { category },
+    });
+  });
 };
 
 exports.createSchemaCustomization = ({ actions }) => {
   const { createTypes } = actions;
+
   createTypes(`
     type MarkdownRemark implements Node {
       frontmatter: Frontmatter
       fields: Fields
     }
+
     type Frontmatter {
       title: String
       description: String
       slug: String
       date: Date @dateformat
+      category: String   # ✅ Tambahkan kategori ke schema
     }
+
     type Fields {
       slug: String
     }

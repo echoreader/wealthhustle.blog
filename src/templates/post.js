@@ -58,7 +58,12 @@ export default function PostTemplate({ data, pageContext }) {
         {frontmatter.category && (
           <>
             &nbsp;&gt;&nbsp;
-            <span className="text-gray-800">{frontmatter.category}</span>
+            <a
+              href={`/category/${frontmatter.category}/`}
+              className="text-gray-800 hover:underline"
+            >
+              {frontmatter.category}
+            </a>
           </>
         )}
         &nbsp;&gt;&nbsp;
