@@ -91,6 +91,8 @@ I wish someone had given me this roadmap. Here's exactly what I did to land my f
 4. **Apply aggressively**: Indeed, FlexJobs, LinkedIn (use #RemoteNursing).
 5. **Ace the interview**: Practice explaining a complex patient case in 2 minutes.
 
+> Looking for more flexible earning options? Explore [Passive Income Ideas for Young Adults](https://wealthhustle.blog/passive-income-ideas-for-young-adults/) for additional ways to earn from home.
+
 ### Essential Tools I Swear By
 
 - **Noise-canceling headset**: Logitech H800 ($80)

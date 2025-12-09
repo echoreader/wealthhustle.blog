@@ -98,6 +98,8 @@ Total tax = $20,668 → **$5,167 per quarter**
 
 I set calendar reminders and pay via IRS Direct Pay takes 3 minutes.
 
+> Starting your own business? You may also find [How to Start an Online Business With No Money](https://wealthhustle.blog/how-to-start-online-business-with-no-money/) helpful as you build your self‑employment journey.
+
 ## Step 5: File Your Annual Return (Form 1040 + Schedules)
 
 Come April, I open TurboTax Self-Employed (or hand my folder to my CPA). The flow:

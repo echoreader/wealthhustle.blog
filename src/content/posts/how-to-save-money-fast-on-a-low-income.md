@@ -271,6 +271,8 @@ Traditional savings accounts often pay 0.01% interest, while high-yield savings 
 *   Ensure the bank is FDIC insured
 *   Consider ease of access for emergencies
 
+> Looking to boost your financial stability? Check out [Passive Income Ideas for Young Adults](https://wealthhustle.blog/passive-income-ideas-for-young-adults/) for simple ways to grow your earnings.
+
 ### Leveraging Cashback and Rewards Programs
 
 **Cashback strategies that actually work:**

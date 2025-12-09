@@ -72,6 +72,8 @@ A **practice exam** is only useful if it's part of a larger strategy. Here’s h
 *   **Third-Party for Variety:** Use reputable sites like Cloud Academy and Tutorials Dojo for additional questions to test your knowledge from different angles.
 *   **Understand the "Why":** The Digital Leader exam tests your understanding of business value. A good **practice exam** will have answer explanations that clarify this, not just the correct choice.
 
+> Looking for more free study materials? Check out [What Is the Best Free Homeschool Curriculum?](https://wealthhustle.blog/what-is-the-best-free-homeschool-curriculum/) for structured learning at no cost.
+
 ## Frequently Asked Questions (FAQ) on Google Cloud Digital Leader Practice Exams
 
 <details>

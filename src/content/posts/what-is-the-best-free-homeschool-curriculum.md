@@ -237,6 +237,8 @@ When you're not paying for a program, you can't exactly call customer service wh
 *   Have backup resources ready for tough concepts
 *   Connect with other homeschool parents in your area
 
+> Interested in free learning resources? Explore [Google Cloud Digital Leader Practice Exam (Free)](https://wealthhustle.blog/google-cloud-digital-leader-practice-exam-free/) for another no‑cost educational opportunity.
+
 ### Challenge 4: Feeling Less "Official"
 
 _I'll admit it sometimes I worried that using free curricula made our homeschool seem less legitimate._ This was totally in my head, but the feeling was real.

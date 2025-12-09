@@ -78,6 +78,8 @@ This template is a starting point. The key is the 20% allocated to your future. 
 *   **Consolidate Accounts:** I simplified my financial life by rolling over old 401(k)s into a single IRA and using one primary checking and savings account. Less clutter means less stress.
 *   **Schedule a Weekly "Money Date":** For 30 minutes each week, I review my accounts, track my spending against my budget, and check in on my **financial goals**. This proactive habit prevents small issues from becoming big problems.
 
+> Looking for practical money habits? Read [How to Save Money Fast on a Low Income](https://wealthhustle.blog/how-to-save-money-fast-on-a-low-income/) for simple strategies that support your financial goals.
+
 ## The Most Important Factor: Your Money Mindset
 
 All the technical **financial planning** in the world fails without the right mindset. My journey required a shift from scarcity to abundance.

@@ -94,6 +94,8 @@ I didn’t pay for a single tool until I made $30K.
 - Mike (truck driver) → $11K in 90 days selling a $27 Notion template about trucking logs  
 - Jasmine → quit her barista job after 60 days of TikTok affiliate marketing about books
 
+> Want to scale your new business? Read [Email Marketing Automation for Small Business](https://wealthhustle.blog/email-marketing-automation-for-small-business-affordable/) to learn how automation can help you grow faster.
+
 ## My Biggest Mistakes So You Don’t Make Them
 
 - Trying five ideas at once (choose one)  

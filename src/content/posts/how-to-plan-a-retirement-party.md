@@ -115,6 +115,8 @@ Keep the schedule loose but intentional.
 
 **Retiree tribute** I swear by: A 3-minute video montage (iMovie, free). Ask 5 people for 15-second clips: “One memory with Tom.” Stitch, add music, cue tears.
 
+> Planning on a budget? Check out [How to Save Money Fast on a Low Income](https://wealthhustle.blog/how-to-save-money-fast-on-a-low-income/) for smart ways to stretch your event budget.
+
 ### Gift Ideas That Don’t Collect Dust
 
 - **Group gift**: Engraved watch, e-bike, or travel voucher  

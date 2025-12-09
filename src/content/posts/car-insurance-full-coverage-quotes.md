@@ -137,6 +137,8 @@ I used the exact same coverage limits ($500 deductibles, 100/300/100 liability) 
 
 A $50 difference per month between the highest and lowest! That's $600 a year for the exact same coverage on the exact same car. This is why you absolutely must shop around. You aren't just getting a different company; you're getting a completely different price.
 
+> Want to strengthen your financial foundation? Explore [Investing Guide to Financial Wellness](https://wealthhustle.blog/investing-guide-to-financial-wellness/) to build long‑term financial security.
+
 When to Drop Full Coverage: Mileage, Vehicle Age, and Risk
 ----------------------------------------------------------
 
