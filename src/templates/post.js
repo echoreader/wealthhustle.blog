@@ -53,7 +53,7 @@ export default function PostTemplate({ data, pageContext }) {
         faqs={faqs}
       />
 
-      <nav className="text-sm text-gray-600 mb-4 px-4">
+      <nav className="text-sm text-gray-600 mb-4 mt-8">
         <a href="/" className="hover:underline">Home</a>
         {frontmatter.category && (
           <>
@@ -80,7 +80,7 @@ export default function PostTemplate({ data, pageContext }) {
             {frontmatter.title}
           </a>
         </h1>
-        <p className="text-sm text-gray-700 px-4">
+        <p className="text-sm text-gray-700">
           <em>{frontmatter.date}</em> • {frontmatter.author || "Echo Reader"}
         </p>
 
@@ -88,7 +88,7 @@ export default function PostTemplate({ data, pageContext }) {
 
         {/* === TAGS === */}
         {frontmatter.tags && frontmatter.tags.length > 0 && (
-          <div className="mt-8 text-sm text-gray-600 px-4 flex items-center flex-wrap gap-x-3 gap-y-2">
+          <div className="mt-8 text-sm text-gray-600 flex items-center flex-wrap gap-x-3 gap-y-2">
             <strong className="mr-2">Tags:</strong>
               {frontmatter.tags.map((tag) => (
                 <span

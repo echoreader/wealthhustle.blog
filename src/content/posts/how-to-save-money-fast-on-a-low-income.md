@@ -18,7 +18,7 @@ If you're struggling to make ends meet while dreaming of building an emergency f
 1\. Introduction: The Reality of Saving on a Low Income 🎯
 ----------------------------------------------------------
 
-Let me be honest with you—saving money on a low income comes with unique challenges that higher earners simply don't face. When every dollar counts toward survival, setting aside money for the future can feel selfish or impossible. I've been there, choosing between saving $20 or buying groceries for the week.
+Let me be honest with you saving money on a low income comes with unique challenges that higher earners simply don't face. When every dollar counts toward survival, setting aside money for the future can feel selfish or impossible. I've been there, choosing between saving $20 or buying groceries for the week.
 
 **Common challenges low-income earners face include:**
 

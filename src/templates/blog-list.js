@@ -5,7 +5,9 @@ import Layout from "../components/Layout";
 export const query = graphql`
   query BlogListQuery($skip: Int!, $limit: Int!) {
     site {
-      siteMetadata { siteUrl }
+      siteMetadata {
+        siteUrl
+      }
     }
     allMarkdownRemark(
       sort: { frontmatter: { date: DESC } }
@@ -36,30 +38,36 @@ export default function BlogPage({ data, pageContext }) {
       description="Browse WealthHustle curated articles on smart investing, career growth, budgeting, and productivity."
       pageType="blog"
     >
-      <section className="container">
+      <section className="container mb-12">
         <h1 className="text-2xl font-bold mb-6">Blog list</h1>
-        <div className="grid gap-y-6">
+
+        <div className="flex flex-col gap-6">
           {posts.map(post => (
-            <div
+            <article
               key={post.id}
-              className="border border-solid border-gray-400 rounded-lg p-6 shadow-md space-y-4 bg-white mb-6"
-              style={{ borderRadius: '12px', border: '2px solid #ccc' }}
+              className="rounded-lg border border-gray-300 p-6 shadow-md bg-white"
+              style={{ borderRadius: "12px", border: "2px solid #ccc" }}
             >
-              <h2 className="text-2xl font-semibold text-gray-900 mb-3">
-                <a href={`${siteUrl}/${post.frontmatter.slug}/`}>
+              <h2 className="text-2xl font-semibold text-gray-900 mb-2">
+                <a
+                  href={`${siteUrl}/${post.frontmatter.slug}/`}
+                  className="text-blue-700 hover:text-blue-500 no-underline"
+                >
                   {post.frontmatter.title}
                 </a>
               </h2>
               <p className="text-sm text-gray-500 mb-2">
                 <em>{post.frontmatter.date}</em>
               </p>
-              <p className="text-gray-700">{post.frontmatter.description}</p>
-            </div>
+              {post.frontmatter.description && (
+                <p className="text-sm text-gray-700">{post.frontmatter.description}</p>
+              )}
+            </article>
           ))}
         </div>
       </section>
 
-      {/* === PAGINATION === */}
+      {/* Pagination */}
       <nav className="flex justify-center gap-2 mt-8">
         {Array.from({ length: numPages }).map((_, i) => {
           const page = i + 1;
