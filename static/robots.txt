@@ -1,8 +1,13 @@
 User-agent: *
+# Block Gatsby build/runtime files
+Disallow: /*.js$
 Disallow: /page-data/
 Disallow: /static/
 Disallow: /404/
 Disallow: /dev-404-page/
+
+# Allow HTML pages
+Allow: /*.html$
 Allow: /
 
 Sitemap: https://wealthhustle.blog/sitemap-index.xml
